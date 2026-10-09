@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f2e9">
+    <meta name="description" content="NESTA is your AI interior architect. Turn a few words into a room that feels unmistakably yours.">
+    <title>NESTA AI — Your AI Interior Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="NESTA AI home">
+        <span class="wordmark-name">NESTA<span class="wordmark-dot">.</span></span>
+        <span class="wordmark-caption">AI INTERIOR STUDIO</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#inspiration">Spaces</a>
+        <a href="#try-it">Try the studio</a>
+        <a href="#apps">Mindwave AI Store</a>
+        <a class="nav-cta" href="#try-it">Start creating <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <img class="hero-image" src="assest/image_1.png" alt="A warm futuristic home interior overlooking the city at night">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span class="live-dot"></span> YOUR AI INTERIOR ARCHITECT · MADE FOR IMAGINATION</p>
+          <h1 id="hero-title">One room.<br>Endless <em>possibility.</em></h1>
+          <p class="hero-description">From a few words to a space that feels unmistakably yours. Dream up the home you can't wait to come back to.</p>
+          <a class="button button-lime" href="#try-it">Explore an idea <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-caption"><span>01 / 04</span><span>FUTURE LIVING · DESIGN CONCEPT</span></div>
+        <a class="scroll-cue" href="#introduction" aria-label="Scroll down"><span></span></a>
+        <div class="hero-stamp" aria-hidden="true"><span>DESIGNED WITH</span><strong>AI</strong><span>MADE FOR YOU</span></div>
+      </section>
+
+      <section class="intro section-pad" id="introduction">
+        <div class="section-index"><span>01</span><span class="index-line"></span><span>IDEAS, TAKING SHAPE</span></div>
+        <div class="intro-grid">
+          <h2>No need to<br>draw. Just <em>dream.</em></h2>
+          <div class="intro-copy">
+            <p>NESTA is an AI interior architect ready to explore ideas with you. Describe what you imagine, choose a style, and watch your room take shape.</p>
+            <a class="text-link" href="#how-it-works">See how NESTA works <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="feature-strip" id="how-it-works">
+          <article class="feature">
+            <span class="feature-number">01</span>
+            <h3>Describe what you imagine</h3>
+            <p>A sunlit kitchen or a quiet reading nook? Put your idea into your own words.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-number">02</span>
+            <h3>Find your style</h3>
+            <p>Explore palettes, materials, and moods that fit the way you live.</p>
+          </article>
+          <article class="feature">
+            <span class="feature-number">03</span>
+            <h3>See your idea take shape</h3>
+            <p>AI turns your description into a visual concept you can refine and explore.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="inspiration section-pad" id="inspiration">
+        <div class="section-index"><span>02</span><span class="index-line"></span><span>A WORLD OF IDEAS</span></div>
+        <div class="section-heading">
+          <h2>Home is where<br>you <em>experiment.</em></h2>
+          <p>Every space starts with a different idea. Here's a glimpse into the world of NESTA.</p>
+        </div>
+        <div class="gallery-grid">
+          <a class="gallery-item gallery-kitchen" href="#try-it" data-gallery-room="kitchen">
+            <img src="assest/image-2.png" alt="Smart kitchen with a lush indoor garden and robotic assistant">
+            <span class="gallery-overlay"></span>
+            <span class="gallery-index">01 — THE KITCHEN</span>
+            <span class="gallery-title">A greener,<br>smarter kitchen.</span>
+            <span class="gallery-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="gallery-item gallery-studio" href="#try-it" data-gallery-room="studio">
+            <img src="assest/image.png" alt="Creative home office with an interactive work surface">
+            <span class="gallery-overlay"></span>
+            <span class="gallery-index">02 — THE STUDIO</span>
+            <span class="gallery-title">A little space.<br>A big idea.</span>
+            <span class="gallery-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="gallery-item gallery-living" href="#try-it" data-gallery-room="living">
+            <img src="assest/image_1.png" alt="Futuristic family living room designed to welcome pets">
+            <span class="gallery-overlay"></span>
+            <span class="gallery-index">03 — YOUR HOME</span>
+            <span class="gallery-title">Room for<br>everyone.</span>
+            <span class="gallery-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="try-section section-pad" id="try-it">
+        <div class="section-index section-index-light"><span>03</span><span class="index-line"></span><span>TRY A DESIGN IDEA</span></div>
+        <div class="try-heading">
+          <h2>What kind of<br>space are you <em>dreaming of?</em></h2>
+          <p>Choose a room and a style to explore a sample concept.</p>
+        </div>
+        <div class="studio-demo">
+          <div class="demo-preview">
+            <img id="preview-image" src="assest/image-2.png" alt="Smart kitchen design concept">
+            <div class="preview-topline"><span><span class="live-dot"></span> SAMPLE CONCEPT</span><span id="preview-count">01 / 03</span></div>
+            <div class="preview-label"><span id="preview-room">THE KITCHEN</span><span class="preview-divider"></span><span id="preview-style">FUTURISTIC</span></div>
+          </div>
+          <div class="demo-controls">
+            <div class="control-group">
+              <p class="control-label">01 / CHOOSE A SPACE</p>
+              <div class="choice-list" role="group" aria-label="Choose a space">
+                <button class="choice-button is-selected" type="button" data-room="kitchen" aria-pressed="true">Kitchen <span>↗</span></button>
+                <button class="choice-button" type="button" data-room="studio" aria-pressed="false">Home studio <span>↗</span></button>
+                <button class="choice-button" type="button" data-room="living" aria-pressed="false">Home &amp; pets <span>↗</span></button>
+              </div>
+            </div>
+            <div class="control-group style-group">
+              <p class="control-label">02 / CHOOSE A STYLE</p>
+              <div class="style-list" role="group" aria-label="Choose a style">
+                <button class="style-button is-selected" type="button" data-style="Futuristic" aria-pressed="true">Futuristic</button>
+                <button class="style-button" type="button" data-style="Minimal" aria-pressed="false">Minimal</button>
+                <button class="style-button" type="button" data-style="Lush greenery" aria-pressed="false">Lush greenery</button>
+              </div>
+            </div>
+            <button class="button button-lime generate-button" type="button" id="generate-button">Explore this concept <span aria-hidden="true">↗</span></button>
+            <p class="demo-note" id="demo-status" aria-live="polite">Choose a space to start exploring.</p>
+          </div>
+        </div>
+        <p class="demo-disclaimer">This preview uses illustrative concepts from the image library.</p>
+      </section>
+
+      <section class="apps-section section-pad" id="apps">
+        <div class="section-index"><span>04</span><span class="index-line"></span><span>THE MINDWAVE AI STORE</span></div>
+        <div class="apps-heading">
+          <h2>Useful ideas for<br>everyday <em>life.</em></h2>
+          <p>Mindwave AI explores thoughtful tools that make everyday tasks feel a little simpler, from imagining your home to understanding what's on your plate.</p>
+        </div>
+        <div class="apps-grid">
+          <article class="app-card">
+            <div class="app-visual food-visual">
+              <img src="assest/foodscan/image-3.png" alt="Food Scan app concept showing meal recognition and nutrition details">
+              <span class="app-status">IN DEVELOPMENT</span>
+            </div>
+            <div class="app-card-copy">
+              <p class="app-category">FOOD · WELLBEING</p>
+              <h3>Food Scan</h3>
+              <p>Point your camera at a meal to explore food recognition and a clearer nutrition breakdown.</p>
+            </div>
+          </article>
+          <article class="app-card">
+            <div class="app-visual design-visual">
+              <img src="assest/image_1.png" alt="NESTA AI home design concept in a warm, futuristic interior">
+              <span class="app-status app-status-live">EXPLORE THE CONCEPT</span>
+            </div>
+            <div class="app-card-copy">
+              <p class="app-category">HOME · CREATIVE TOOLS</p>
+              <h3>NESTA Home Design</h3>
+              <p>Turn a few words into interior ideas and discover new possibilities for your space.</p>
+              <a class="app-link" href="#try-it">Explore NESTA <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="app-card">
+            <div class="app-visual video-visual" role="img" aria-label="Visual concept for a simple AI video editor with a preview and editing timeline">
+              <div class="editor-topbar"><span>MINDWAVE CUT</span><span>PROJECT 04 · 00:12</span></div>
+              <div class="editor-preview"><span class="editor-play" aria-hidden="true">▶</span><span>YOUR STORY, IN MOTION</span></div>
+              <div class="editor-timeline" aria-hidden="true">
+                <span class="timeline-track track-one"><i></i><i></i><i></i></span>
+                <span class="timeline-track track-two"><i></i><i></i><i></i><i></i></span>
+                <span class="timeline-track track-three"><i></i><i></i></span>
+              </div>
+              <span class="app-status">IN DEVELOPMENT</span>
+            </div>
+            <div class="app-card-copy">
+              <p class="app-category">VIDEO · CREATION</p>
+              <h3>AI Video Editor</h3>
+              <p>We’re exploring simpler ways to shape clips, find a rhythm, and bring everyday stories together.</p>
+            </div>
+          </article>
+        </div>
+        <p class="apps-note">Food Scan and AI Video Editor are concepts in development, not currently available products.</p>
+      </section>
+
+      <section class="closing section-pad">
+        <p class="eyebrow">YOUR NEXT HOME STARTS HERE</p>
+        <h2>Your space.<br><em>Your imagination.</em></h2>
+        <a class="button button-dark" href="#try-it">Start with NESTA <span aria-hidden="true">↗</span></a>
+        <span class="closing-mark" aria-hidden="true">N.</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#home">
+        <span class="wordmark-name">NESTA<span class="wordmark-dot">.</span></span>
+        <span class="wordmark-caption">AI INTERIOR STUDIO</span>
+      </a>
+      <p>Great spaces begin with an idea.</p>
+      <a href="policies.html" class="back-top">PRIVACY &amp; DATA POLICY</a>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+      <span class="copyright">© 2025 MINDWAVE AI</span>
+    </footer>
+  </body>
+</html>
